@@ -15,7 +15,7 @@ ocr = PaddleOCR(use_angle_cls=True, lang='en')  # English model
 print('OCR loaded')
 # 初始化 OpenAI 客户端（阿里云百炼）
 client = OpenAI(
-    api_key='sk-5ed0a549b0274a1d8506a04e61c4d5e3',
+    api_key='',
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
 )
 
